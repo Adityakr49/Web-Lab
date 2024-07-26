@@ -26,13 +26,6 @@ function mul(){
 }
 
 
-function mul(){
-    let n1 = parseFloat(document.getElementById("input1").value);
-    let n2 = parseFloat(document.getElementById("input2").value);
-    let res = n1 * n2;
-    document.getElementById("result").innerHTML = "Result: " + res;
-}
-
 function div(){
     let n1 = parseFloat(document.getElementById("input1").value);
     let n2 = parseFloat(document.getElementById("input2").value);
